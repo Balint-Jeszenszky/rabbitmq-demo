@@ -1,5 +1,5 @@
 import pika
-import sys
+import time
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
@@ -16,5 +16,6 @@ for i in range(15):
           delivery_mode=pika.spec.PERSISTENT_DELIVERY_MODE
       ))
   print(" [x] Sent %r" % message)
+  time.sleep(2)
 
 connection.close()

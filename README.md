@@ -1,1 +1,1 @@
-# python-rabbitmq-demo
+# rabbitmq-demo
