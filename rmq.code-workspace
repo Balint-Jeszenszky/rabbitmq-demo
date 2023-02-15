@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "Java",
+			"path": "java"
+		},
+		{
+			"name": "Python",
+			"path": "python"
+		},
+		{
+			"name": "Nest",
+			"path": "nest"
+		},
+		{
+			"name": "Root",
+			"path": "."
+		}
+	]
+}
