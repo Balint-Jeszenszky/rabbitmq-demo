@@ -9,7 +9,7 @@ export class AppService {
   ) {}
 
   getHello(): string {
-    this.client.emit('task', new Date().toISOString());
+    this.client.emit('task', 'Hello from Nest');
     return 'Hello World!';
   }
 }

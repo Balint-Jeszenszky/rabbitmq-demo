@@ -7,7 +7,7 @@ channel = connection.channel()
 channel.queue_declare(queue='task_queue', durable=True)
 
 for i in range(15):
-  message = f'Task {i}'
+  message = f'Task {i} from Python'
   channel.basic_publish(
       exchange='',
       routing_key='task_queue',
